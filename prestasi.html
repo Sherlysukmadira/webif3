@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prestasi</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+        header {
+            background-color: #004a99;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 0 15px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            gap: 20px;
+        }
+        .card {
+            background: white;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 15px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            width: calc(33.333% - 20px);
+            box-sizing: border-box;
+        }
+        .card img {
+            max-width: 100%;
+            border-radius: 8px;
+            height: 200px;
+            object-fit: cover;
+        }
+        .card h3 {
+            margin: 10px 0;
+            color: #004a99;
+        }
+        .card p {
+            color: #555;
+            margin: 10px 0;
+        }
+        .card a {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 10px 15px;
+            background: #004a99;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .card a:hover {
+            background: #003366;
+        }
+        @media (max-width: 768px) {
+            .card {
+                width: calc(50% - 20px);
+            }
+        }
+        @media (max-width: 480px) {
+            .card {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Prestasi Mahasiswa Informatika Unand</h1>
+</header>
+
+<div class="container">
+    <div class="card">
+        <img src="assets/img/prestasi/bucelly (5).jpg" alt="Foto Sherly Sukmadira Putri">
+        <h3>Sherly Sukmadira Putri</h3>
+        <p>Meraih predikat Cumlaude dengan IPK 3,90, aktif berorganisasi, dan berprestasi di berbagai kompetisi.</p>
+        <div style="font-style: italic;">Aamiin ya Allah aamiin</div>
+        <a href="#">Selengkapnya</a>
+    </div>
+    <div class="card">
+        <img src="assets/img/prestasi/kkdini.jpg" alt="Foto Rahmadini Aulia"> 
+        <h3>Rahmadini Aulia</h3>
+        <p>Meraih Juara 1 pada Pemilihan Mahasiswa Berprestasi (Pilmapres) Tingkat Universitas Andalas yang dilaksanakan pada Senin (10/4).</p>
+        <a href="#">Selengkapnya</a>
+    </div>
+    <div class="card">
+        <img src="assets/img/prestasi/prs1.jpg" alt="Foto Tim PPK ORMAWA Informatika">
+        <h3>Tim PPK ORMAWA Informatika</h3>
+        <p>Tim PPK ORMAWA Informatika berhasil meraih Juara 3 dalam Lomba Esai Pertamina 2024.</p>
+        <a href="#">Selengkapnya</a>
+    </div>
+</div>
+
+</body>
+</html>
